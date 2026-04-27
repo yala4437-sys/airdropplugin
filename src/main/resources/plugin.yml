@@ -1,0 +1,12 @@
+name: AirDropPlugin
+version: '1.0'
+main: com.airdrop.AirDropPlugin
+description: Automatic air drop plugin with rare drops
+api-version: '1.20'
+commands:
+  airdrop:
+    description: Manually trigger an air drop
+    usage: /airdrop
+  airdropstatus:
+    description: Check air drop status
+    usage: /airdropstatus
